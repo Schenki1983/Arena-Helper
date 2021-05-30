@@ -93,6 +93,16 @@ namespace ArenaHelper
             }
         }
 
+        public string StringWebsite
+        {
+            get { return "https://rembound.com/?from=ArenaHelper"; }
+        }
+
+        public string StringTierList
+        {
+            get { return "https://thelightforge.com/TierList"; }
+        }
+
         public string StringGitHub
         {
             get { return "https://github.com/rembound/Arena-Helper"; }
@@ -141,6 +151,11 @@ namespace ArenaHelper
         }
 
         // About
+        private void AboutVisitWebsite_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start(StringWebsite);
+        }
+
         private void AboutVisitGitHub_Click(object sender, RoutedEventArgs e)
         {
             Process.Start(StringGitHub);

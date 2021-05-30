@@ -27,7 +27,7 @@ namespace TestPlugin
 
         public override string Author
         {
-            get { return "Rembound"; }
+            get { return "Rembound.com"; }
         }
 
         public override Version Version
